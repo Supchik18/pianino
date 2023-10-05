@@ -101,6 +101,6 @@ static void Note(int[] Octave)
 }
 static void MakeSound(int frequency)
 {
-    Console.Beep(frequency, 100);
+    Console.Beep(frequency, 200);
     Console.Clear();
 }
